@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602AE95B1E779E5F002A47EC /* DataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602AE95A1E779E5F002A47EC /* DataInfo.swift */; };
+		605AEB011E653026004AA09B /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AEB001E653026004AA09B /* CalculatorViewController.swift */; };
+		605AEB031E653054004AA09B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AEB021E653054004AA09B /* ResultViewController.swift */; };
+		60628D611E6E61F2003F2AE7 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60628D601E6E61F2003F2AE7 /* GraphView.swift */; };
 		60ED2AB31E6525A500301F4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED2AB21E6525A500301F4F /* AppDelegate.swift */; };
-		60ED2AB51E6525A500301F4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED2AB41E6525A500301F4F /* ViewController.swift */; };
 		60ED2AB81E6525A500301F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60ED2AB61E6525A500301F4F /* Main.storyboard */; };
 		60ED2ABB1E6525A500301F4F /* Discount_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60ED2AB91E6525A500301F4F /* Discount_Calculator.xcdatamodeld */; };
 		60ED2ABD1E6525A500301F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60ED2ABC1E6525A500301F4F /* Assets.xcassets */; };
@@ -35,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		602AE95A1E779E5F002A47EC /* DataInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInfo.swift; sourceTree = "<group>"; };
+		605AEB001E653026004AA09B /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		605AEB021E653054004AA09B /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		60628D601E6E61F2003F2AE7 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		60ED2AAF1E6525A500301F4F /* Discount Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Discount Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60ED2AB21E6525A500301F4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60ED2AB41E6525A500301F4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60ED2AB71E6525A500301F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60ED2ABA1E6525A500301F4F /* Discount_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Discount_Calculator.xcdatamodel; sourceTree = "<group>"; };
 		60ED2ABC1E6525A500301F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,8 +105,11 @@
 		60ED2AB11E6525A500301F4F /* Discount Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				605AEB001E653026004AA09B /* CalculatorViewController.swift */,
+				605AEB021E653054004AA09B /* ResultViewController.swift */,
+				602AE95A1E779E5F002A47EC /* DataInfo.swift */,
+				60628D601E6E61F2003F2AE7 /* GraphView.swift */,
 				60ED2AB21E6525A500301F4F /* AppDelegate.swift */,
-				60ED2AB41E6525A500301F4F /* ViewController.swift */,
 				60ED2AB61E6525A500301F4F /* Main.storyboard */,
 				60ED2ABC1E6525A500301F4F /* Assets.xcassets */,
 				60ED2ABE1E6525A500301F4F /* LaunchScreen.storyboard */,
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				60ED2ABB1E6525A500301F4F /* Discount_Calculator.xcdatamodeld in Sources */,
-				60ED2AB51E6525A500301F4F /* ViewController.swift in Sources */,
+				602AE95B1E779E5F002A47EC /* DataInfo.swift in Sources */,
+				605AEB011E653026004AA09B /* CalculatorViewController.swift in Sources */,
 				60ED2AB31E6525A500301F4F /* AppDelegate.swift in Sources */,
+				605AEB031E653054004AA09B /* ResultViewController.swift in Sources */,
+				60628D611E6E61F2003F2AE7 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +521,7 @@
 				60ED2ADC1E6525A600301F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60ED2ADD1E6525A600301F4F /* Build configuration list for PBXNativeTarget "Discount CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				60ED2ADF1E6525A600301F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60ED2AE01E6525A600301F4F /* Build configuration list for PBXNativeTarget "Discount CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				60ED2AE21E6525A600301F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Discount Calculator
 //
-//  Created by Vance on 2/27/17.
-//  Copyright © 2017 Vance. All rights reserved.
+//  Created by Van Do on 2/27/17.
+//  Copyright © 2017 Van Do. All rights reserved.
 //
 
 import UIKit
